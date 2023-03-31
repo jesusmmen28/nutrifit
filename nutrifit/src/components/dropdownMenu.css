@@ -1,0 +1,42 @@
+.dropdown {
+  background-color: rgba(246, 238, 248, 0.914);
+  text-align: center;
+  padding: 10px;
+  height: 2rem;
+}
+
+.menuHamburguesa {
+  color: rgb(126, 5, 126);
+  background-color: rgb(243, 217, 249);
+  width: 2rem;
+  border-radius: 3px;
+}
+
+
+.contenedorUlDropdown {
+    display: block;
+    width: 10rem;
+    height: 11rem;
+    padding: 10px;
+    background-color: rgb(242, 224, 246);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4px;
+
+}
+
+.ulDropdown {
+    list-style: none;
+    text-align: left;
+} 
+
+
+.linkDropdown {
+    text-decoration: none;
+    color: rgb(126, 5, 126);
+  }
+
+  li {
+    padding: 3px;
+    border-bottom: 1px solid rgb(126, 5, 126); ;
+  }

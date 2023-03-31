@@ -1,0 +1,14 @@
+.contenedorHome {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tituloPrincipalHome {
+    text-align: center;
+    padding: 5px;
+}
+
+.comidaypesa {
+    width: 100%;
+}
