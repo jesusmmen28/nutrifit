@@ -15,8 +15,8 @@
 
 .contenedorUlDropdown {
     display: block;
-    width: 10rem;
-    height: 11rem;
+    width: 9rem;
+    height: 12rem;
     padding: 10px;
     background-color: rgb(242, 224, 246);
     margin-left: auto;
@@ -36,7 +36,7 @@
     color: rgb(126, 5, 126);
   }
 
-  li {
+  .liDropdown {
     padding: 3px;
     border-bottom: 1px solid rgb(126, 5, 126); ;
   }

@@ -15,23 +15,26 @@ const DropdownMenu = () => {
       {isOpen && (
         <div className="contenedorUlDropdown">
             <ul className="ulDropdown">
-            <li>
+            <li className="liDropdown">
                 <Link to={"/"} className="linkDropdown">Inicio</Link>
             </li>
-            <li>
+            <li className="liDropdown">
                 <Link to={"/about"} className="linkDropdown">Nosotros</Link>
             </li>
-            <li>
-                <Link to={"/rutinas"} className="linkDropdown">RUTINAS</Link>
+            <li className="liDropdown">
+                <Link to={"/rutinas"} className="linkDropdown">Rutinas</Link>
             </li>
-            <li>
-                <Link to={"/recetas"} className="linkDropdown">RECETAS</Link>
+            <li className="liDropdown">
+                <Link to={"/recetas"} className="linkDropdown">Recetas</Link>
             </li>
-            <li>
-                <Link to={"/consejos"} className="linkDropdown">CONSEJOS</Link>
+            <li className="liDropdown">
+                <Link to={"/consejos"} className="linkDropdown">Consejos</Link>
             </li>
-            <li>
-                <Link to={"/contactos"} className="linkDropdown">CONTACTO</Link>
+            <li className="liDropdown">
+                <Link to={"/contact"} className="linkDropdown">Contacto</Link>
+            </li>
+            <li className="liDropdown">
+                <Link to={"/planes"} className="linkDropdown">Planes</Link>
             </li>
             </ul>
         </div>

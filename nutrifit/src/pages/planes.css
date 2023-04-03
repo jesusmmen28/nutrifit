@@ -1,0 +1,4 @@
+.formPlanes {
+    display: flex;
+    flex-direction: column;
+}

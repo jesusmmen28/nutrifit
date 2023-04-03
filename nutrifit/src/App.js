@@ -9,6 +9,9 @@ import { Contact } from "./pages/Contact";
 import { Rutinas } from "./pages/Rutinas";
 import { Recetas } from "./pages/Recetas";
 import { Consejos } from "./pages/Consejos";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Planes } from "./pages/Planes";
 
 function App() {
   return (
@@ -22,9 +25,11 @@ function App() {
             <Route path="/recetas" element={<Recetas />} />
             <Route path="/consejos" element={<Consejos />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/planes" element={<Planes />} />
           </Routes>
         </div>
         <Footer />
+        <ToastContainer position="bottom-center" pauseOnHover theme="light" />
     </BrowserRouter>
   );
 }

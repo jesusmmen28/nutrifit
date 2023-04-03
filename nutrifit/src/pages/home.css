@@ -1,14 +1,140 @@
-.contenedorHome {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.tituloPrincipalHome {
-    text-align: center;
-    padding: 5px;
+.headerSection {
+  display: flex;
+  flex-direction: column;
+}
+.imgHome {
+  width: 100%;
+  object-fit: contain;
+}
+
+.planEntrenamientoHome {
+  margin-top: -4px;
+  background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+  padding: 25px;
+  text-align: center;
+  border-bottom: 3px solid rgb(126, 5, 126);
+}
+
+.pPlanEntrenamientoHome1 {
+ border-bottom: 2px solid;
+ width: 75%;
+ padding-bottom: 5px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.pPlanEntrenamientoHome {
+  margin: 5px;
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+
+.linkPlanEntrenamiento {
+  text-decoration: none;
+  background: linear-gradient(to bottom, rgb(246, 238, 248), #ffffff);
+  padding: 10px;
+  border-radius: 3px;
+  color: rgb(126, 5, 126);
+  font-weight: bold;
+}
+
+/*Sección dieta y ejercicios*/
+
+.contenidoHome {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid rgb(126, 5, 126);
 }
 
 .comidaypesa {
-    width: 100%;
+  width: 100%;
+}
+
+.articleContenidoHome{
+  text-align: center;
+  padding: 20px;
+}
+
+.titleHomeArt {
+  margin-bottom: 10px;
+}
+
+
+/*Sección cuida tu salud*/
+
+.cuidaTuSalud {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 3px solid rgb(126, 5, 126);
+  background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+}
+
+.titleCuidaTuSalud {
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.divCuidaTuSalud {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+
+.iconsCuidaTuSalud {
+  width: 50px;
+  height: 50px;
+}
+
+.divIconsCuidaTuSalud {
+  width: 70px;
+  height: 70px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-color:  rgb(246, 238, 248);
+}
+
+.pCuidaTuSalud {
+  margin-top: 5px;
+}
+
+/*Sección elegir nutrifit*/
+
+.xqNutrifit {
+padding: 20px;
+text-align: center;
+border-bottom: 3px solid rgb(126, 5, 126);
+}
+
+.titleXqNutrifit {
+  margin-bottom: 10px;
+}
+
+/*Resultados home*/
+
+.resultadosHome {
+  background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+  text-align: center;
+}
+
+.titleResultadosHome {
+  padding: 20px;
+}
+
+.antesdespues {
+  width: 100%;
+  object-fit: contain;
 }
