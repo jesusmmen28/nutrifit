@@ -1,6 +1,7 @@
 .homeContainer {
   display: flex;
   flex-direction: column;
+
   
 }
 
@@ -137,4 +138,6 @@ border-bottom: 3px solid rgb(126, 5, 126);
 .antesdespues {
   width: 100%;
   object-fit: contain;
+  margin-bottom: -5px;
+
 }

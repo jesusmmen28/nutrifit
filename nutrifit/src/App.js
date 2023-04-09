@@ -6,12 +6,12 @@ import Home from "./pages/Home";
 import { Footer } from "./components/Footer";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
-import { Rutinas } from "./pages/Rutinas";
 import { Recetas } from "./pages/Recetas";
 import { Consejos } from "./pages/Consejos";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Planes } from "./pages/Planes";
+import RutinasPage from "./pages/RutinasPage";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/rutinas" element={<Rutinas />} />
+            <Route path="/rutinas/*" element={<RutinasPage />} />
             <Route path="/recetas" element={<Recetas />} />
             <Route path="/consejos" element={<Consejos />} />
             <Route path="/contact" element={<Contact />} />

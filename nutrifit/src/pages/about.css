@@ -1,0 +1,28 @@
+.contenedorAbout {
+    padding: 20px;
+    text-align: center;
+}
+
+.titleAbout {
+    margin-bottom: 10px;
+   
+}
+
+.articleAbout {
+    margin-top: 20px;
+}
+
+.titleArticleAbout {
+    margin-bottom: 20px;
+}
+
+.imgAbout {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.pAbout {
+    margin-top: 10px;
+    font-weight: bold;
+}

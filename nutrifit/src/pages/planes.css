@@ -1,4 +1,65 @@
 .formPlanes {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap: 1rem;
 }
+
+.imgPlanes {
+    width: 100%;
+}
+
+.titlePlanes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formPlanes label {
+    display: block;
+  }
+  
+  .formPlanes select,
+  .formPlanes input[type="number"],
+  .formPlanes input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formPlanes select:focus,
+  .formPlanes input[type="number"]:focus,
+  .formPlanes input[type="file"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  .formPlanes button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formPlanes button[type="submit"]:hover,
+  .formPlanes button[type="submit"]:focus {
+    background-color: #3277b8;
+  }
+
+  .divButtonPlanes {
+    display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  }
+  .buttonPlanes {
+    background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }

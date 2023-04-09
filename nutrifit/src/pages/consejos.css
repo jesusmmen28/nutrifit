@@ -1,0 +1,23 @@
+.contenedorConsejos {
+    padding: 20px;
+}
+
+.titleConsejos {
+    text-align: center;
+}
+
+.titleConsejos2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pConsejos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+}
+
+.imgConsejos {
+    width: 100%;
+    margin-bottom: 10px;
+}

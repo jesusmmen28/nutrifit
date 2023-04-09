@@ -31,10 +31,10 @@ const DropdownMenu = () => {
                 <Link to={"/consejos"} className="linkDropdown">Consejos</Link>
             </li>
             <li className="liDropdown">
-                <Link to={"/contact"} className="linkDropdown">Contacto</Link>
+                <Link to={"/planes"} className="linkDropdown">Planes</Link>
             </li>
             <li className="liDropdown">
-                <Link to={"/planes"} className="linkDropdown">Planes</Link>
+                <Link to={"/contact"} className="linkDropdown">Contacto</Link>
             </li>
             </ul>
         </div>

@@ -35,7 +35,7 @@ function Home() {
         </figure>
         <article className="articleContenidoHome">
           <h2 className="titleHomeArt">
-            No es solo dieta y ejercicios: Es un estilo de vida sano
+            No es solo dieta y ejercicio: Es un estilo de vida sano
           </h2>
           <p>
             Consumir una dieta saludable y hacer ejercicio con regularidad

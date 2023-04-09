@@ -1,0 +1,17 @@
+.contenedorRecetas {
+    padding: 20px;
+
+}
+
+.imgRecetas{
+    width: 100%;
+}
+
+.tituloPrincipalReceta {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pRecetas {
+    margin-bottom: 10px;
+}

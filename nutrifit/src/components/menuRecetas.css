@@ -1,0 +1,26 @@
+.titulosReceta {
+ padding: 0 20px 20px 20px;
+}
+
+.titulosReceta1 {
+    padding-bottom:5px;
+}
+
+.h4Recetas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgRecetas1 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.listaRecetas {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.olRecetas {
+    margin-bottom: 10px;
+}

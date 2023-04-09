@@ -1,0 +1,52 @@
+.contenedorRutinas {
+    border-bottom: 3px solid rgb(126, 5, 126);
+    padding: 20px;
+}
+
+.titleRutinas {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pRutinas {
+    margin-top: 10px;
+   
+}
+
+.contenedorRutas {
+    background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+padding: 20px;
+border-bottom: 3px solid rgb(126, 5, 126);
+}
+
+.ulRutina {
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+.linkRutinaEntrenamiento {
+    list-style: none;
+    background: linear-gradient(to bottom, rgb(246, 238, 248), #ffffff);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(126, 5, 126);
+    font-weight: bold;
+    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.imgRutinas {
+    width: 100%;
+}
+
+.pRutinasPlanes {
+    padding: 20px;
+}
+

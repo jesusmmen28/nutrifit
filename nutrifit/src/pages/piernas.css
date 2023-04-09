@@ -1,0 +1,19 @@
+.ulpiernas {
+  
+    list-style: none;
+}
+
+.h3piernas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.liPiernas{
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(179, 212, 243), #b2d1f0, #84bde8);
+   
+}
+
+.liPiernas1 {
+    padding: 20px;
+}
